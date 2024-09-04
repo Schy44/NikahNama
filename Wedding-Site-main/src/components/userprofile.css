@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.profile-item h2{
+    margin-left: 240px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile-content img{
+    height: 200px;
+    width: 200px;
+    margin-left: 340px;
+}
+
+.profile-data{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    margin-left: 240px;
+}
+
+.profile-content li{
+    list-style: none;
+}
+
+.user-profile-info{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile-content p{
+    margin-left: 240px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}

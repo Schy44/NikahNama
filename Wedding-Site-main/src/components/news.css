@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.news{
+    width: 100%;
+    height: 400px;
+    margin-top: 120px;
+    background-image: url('/images/paralax.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.news-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.news-text h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    color:black ;
+    background-color: white;
+    padding: 5px 10px;
+     
+}
+
+
+.news input{
+    border-radius: 30px;
+    padding: 10px 80px;
+    margin-top: 30px;
+    border: 2px solid #D9CAAD;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-text button{
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 10px -0px;
+    width: 100px;
+    background-color:  rgb(53, 2, 2);
+    color: white;
+    border:2px solid #D9CAAD;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.news-text button:hover{
+    background-color:  rgb(46, 3, 3);
+}

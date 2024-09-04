@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.login, .forgot-password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.login-form, .forgot-password-form {
+    background-color: #beb6a6;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 350px;
+}
+
+.login-form h2, .forgot-password-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.login-form input, .forgot-password-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.toggle-password {
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14px;
+}
+
+.toggle-password::after {
+    content: attr(data-state);
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.login button, .forgot-password button {
+    width: 100%;
+    background-color: #ccb380;
+    color: black;
+    border: none;
+    border-radius: 45px;
+    padding: 10px;
+    margin-left: -4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #D9CAAD;
+}
+
+.password {
+    position: relative;
+}
+
+.password input {
+    padding-right: 40px; 
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #555;
+}
+
+.toggle-password:hover {
+    color: #333;
+}
+
+.signup-sec, .login-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-sec a, .login-sec a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.signup-sec p, .login-sec p {
+    margin-top: 20px;
+}
+
+.signup-sec .reglink, .login-sec .loginlink {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.signup-sec p, .login-sec p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.forgot a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+}
